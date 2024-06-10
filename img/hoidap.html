@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mục Hỏi Đáp (FAQ)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .faq-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        details {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        details[open] summary::after {
+            content: "▲";
+            float: right;
+        }
+        summary::after {
+            content: "▼";
+            float: right;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="faq-container">
+    <h1>Mục Hỏi Đáp (FAQ)</h1>
+    <details>
+        <summary>Câu hỏi 1: Học phí hằng năm là bao nhiêu ?</summary>
+        <p>Trả lời: Học phí hằng năm là 5.000.000 VNĐ.</p>
+    </details>
+    <details>
+        <summary>Câu hỏi 2: Chi phí đồng phục của học sinh?</summary>
+        <p>Trả lời: Chi phí đồng phục học sinh bao gồm 3 dồng phục(1 đồng phục thể dục) là 2.000.000 VNĐ .</p>
+    </details>
+    <details>
+        <summary>Câu hỏi 3: Điểm xét học bạ năm học 2024-2025 là bao nhiêu?</summary>
+        <p>Trả lời: Điểm xét học bạ năm học 2024-2025 là 29.5 .</p>
+    </details>
+    <details>
+        <summary>Câu hỏi 4: Thời gian nhập học và khai giảng là khi nào?</summary>
+        <p>Trả lời: Thời gian nhập học và khai giảng cùng một ngày 5/9/2025.</p>
+    </details>
+</div>
+
+</body>
+</html>
